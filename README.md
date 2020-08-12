@@ -1,1 +1,1 @@
-# minimax
+# Minimax Fanclub
