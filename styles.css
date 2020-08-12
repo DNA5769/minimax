@@ -11,23 +11,23 @@ body {
 
 /* Navbar */
 nav {
-    border : 1px solid purple;
+    border : 1px solid blue;
     margin : 10px;
     border-radius: 10px;
 }
-nav > ul{
+nav > ul {
     display : flex;
     align-items : center;
     justify-content : space-around;
 }
-nav > ul > li{
+nav > ul > li {
     list-style : none;
     margin : 7px;
 }
-nav > ul > li > a{
+nav > ul > li > a {
     text-decoration : none;
     font-size : 1.5rem;
-    color : pink;
+    color : rgb(101, 190, 219);
 }
 
 /* Welcome */
@@ -36,21 +36,57 @@ nav > ul > li > a{
     align-items : center;
     justify-content : space-around;
     flex-direction : column;
-    color : pink;
-    border : 1px solid purple;
+    color : rgb(101, 190, 219);
+    border : 1px solid blue;
     margin : 10px;
     border-radius: 10px;
     padding : 20px;
 }
-#welcome > img{
+#welcome > img {
     width : 20%;
     border-radius : 100%;
+    margin : auto auto;
 }
-#welcome > h1{
+#welcome > h1 {
     margin : 10px;
     font-size : 4rem;
 }
-#welcome > p{
+#welcome > p {
     text-align : center;
+    font-size : 2rem;
+}
+
+/* Follow */
+#follow {
+    display : flex;
+    align-items : center;
+    justify-content : space-around;
+    flex-direction : column;
+    color : rgb(101, 190, 219);
+    border : 1px solid blue;
+    margin : 10px;
+    border-radius: 10px;
+    padding : 20px;
+}
+
+/* About */
+#about {
+    display : flex;
+    align-items : center;
+    justify-content : space-around;
+}
+#about > div {
+    border : 1px solid blue;
+    border-radius: 10px;
+    padding : 10px;
+    margin : 5px;
+    text-align : center;
+    color : rgb(101, 190, 219);
+}
+#about > div > h1 {
+    font-size : 3rem;
+    margin : 2px;
+}
+#about > div > p {
     font-size : 2rem;
 }
