@@ -45,7 +45,6 @@ nav > ul > li > a {
 #welcome > img {
     width : 20%;
     border-radius : 100%;
-    margin : auto auto;
 }
 #welcome > h1 {
     margin : 10px;
@@ -58,15 +57,24 @@ nav > ul > li > a {
 
 /* Follow */
 #follow {
-    display : flex;
-    align-items : center;
-    justify-content : space-around;
-    flex-direction : column;
     color : rgb(101, 190, 219);
     border : 1px solid blue;
     margin : 10px;
     border-radius: 10px;
     padding : 20px;
+    text-align : center;
+}
+#follow > h1{
+    font-size : 3rem;
+    margin : 10px;
+}
+#follow > div{
+    display : flex;
+    align-items : center;
+    justify-content : space-around;
+}
+#follow > div > img {
+    width : 10%;
 }
 
 /* About */
