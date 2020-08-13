@@ -133,6 +133,15 @@ nav > ul > li > a {
     text-align : center;
     color : var(--btext);
 }
+#gallery > h1 {
+    margin : 10px;
+}
+#gallery > img {
+    width : 30%;
+    margin-top : 15px;
+    border : var(--bdr);
+    border-radius: 10px;
+}
 
 /* Utility Classes */
 .gibhead {
