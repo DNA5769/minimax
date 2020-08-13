@@ -4,6 +4,11 @@
     /* border : 1px solid red; */
 }
 
+:root {
+    --bdr : 1px solid blue;
+    --btext : rgb(101, 190, 219);
+}
+
 /* BG */
 body {
     background-image : url('img/bg.jpg');
@@ -11,7 +16,7 @@ body {
 
 /* Navbar */
 nav {
-    border : 1px solid blue;
+    border : var(--bdr);
     margin : 10px;
     border-radius: 10px;
 }
@@ -27,7 +32,7 @@ nav > ul > li {
 nav > ul > li > a {
     text-decoration : none;
     font-size : 1.5rem;
-    color : rgb(101, 190, 219);
+    color : var(--btext);
 }
 
 /* Welcome */
@@ -36,8 +41,9 @@ nav > ul > li > a {
     align-items : center;
     justify-content : space-around;
     flex-direction : column;
-    color : rgb(101, 190, 219);
-    border : 1px solid blue;
+    color : var(--btext);
+    text-align : center;
+    border : var(--bdr);
     margin : 10px;
     border-radius: 10px;
     padding : 20px;
@@ -50,22 +56,17 @@ nav > ul > li > a {
     margin : 10px;
     font-size : 4rem;
 }
-#welcome > p {
-    text-align : center;
-    font-size : 2rem;
-}
 
 /* Follow */
 #follow {
-    color : rgb(101, 190, 219);
-    border : 1px solid blue;
+    color : var(--btext);
+    border : var(--bdr);
     margin : 10px;
     border-radius: 10px;
     padding : 20px;
     text-align : center;
 }
 #follow > h1{
-    font-size : 3rem;
     margin : 10px;
 }
 #follow > div{
@@ -83,15 +84,14 @@ nav > ul > li > a {
     justify-content : space-around;
 }
 #about > div {
-    border : 1px solid blue;
+    border : var(--bdr);
     border-radius: 10px;
     padding : 10px;
     margin : 10px;
     text-align : center;
-    color : rgb(101, 190, 219);
+    color : var(--btext);
 }
 #about > div > h1 {
-    font-size : 3rem;
     margin : 2px;
 }
 #about > div > p {
@@ -104,23 +104,26 @@ nav > ul > li > a {
     align-items : center;
     justify-content : space-around;
     flex-direction : column;
-    border : 1px solid blue;
+    border : var(--bdr);
     border-radius: 10px;
     padding : 10px;
     margin : 10px;
     text-align : center;
-    color : rgb(101, 190, 219);
+    color : var(--btext);
 }
 #latest > h1{
-    font-size : 3rem;
     margin : 10px;
-}
-#latest > p {
-    text-align : center;
-    font-size : 2rem;
 }
 #latest > iframe {
     margin-top : 15px;
-    border : 1px solid blue;
+    border : var(--bdr);
     border-radius: 10px;
+}
+
+/* Utility Classes */
+.gibhead {
+    font-size : 3rem;
+}
+.gibpara {
+    font-size : 2rem;
 }
