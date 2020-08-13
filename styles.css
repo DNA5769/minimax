@@ -174,21 +174,29 @@ nav > ul > li > a {
 #joinus > form > input, #joinus > form > textarea {
     width : 70%;
     font-size : 1rem;
+    font-family: 'Rubik', sans-serif;
     margin-bottom : 3px;
 }
 #joinus > form > div {
-    margin-bottom : 3px;
-    margin-top : 3px;
+    padding-bottom : 5px;
+    padding-top : 5px;
     font-size : 1.5rem;
 }
-#joinnow {
+#joinus > form > div > input{
+    font-size : 1rem;
+}
+#submitdiv {
     margin-top : 3px;
     margin-bottom : 3px;
+    padding : 5px;
+}
+#joinnow {
     color : var(--btext);
     background-color : blue;
     border-radius : 10px;
     border : 1px solid black;
-    padding : 5px;
+    padding : 10px;
+    cursor : pointer;
 }
 #toggle {
     cursor : pointer;
@@ -201,7 +209,9 @@ nav > ul > li > a {
 /* Utility Classes */
 .gibhead {
     font-size : 3rem;
+    font-family: 'Oxygen', sans-serif;
 }
 .gibpara {
     font-size : 2rem;
+    font-family: 'Rubik', sans-serif;
 }
