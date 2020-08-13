@@ -11,7 +11,7 @@
 
 /* BG */
 body {
-    background-image : url('img/bg.jpg');
+    background-image : url('img/bg.png');
 }
 
 /* Navbar */
@@ -76,6 +76,7 @@ nav > ul > li > a {
 }
 #follow > div > img {
     width : 10%;
+    cursor : pointer;
 }
 
 /* About */
@@ -142,6 +143,7 @@ nav > ul > li > a {
     margin-top : 15px;
     border : var(--bdr);
     border-radius: 10px;
+    opacity : 0;
 }
 
 /* Join Us! */
@@ -201,6 +203,7 @@ nav > ul > li > a {
 #toggle {
     cursor : pointer;
     text-decoration : underline;
+    color : blue;
 }
 #add {
     display : none;
